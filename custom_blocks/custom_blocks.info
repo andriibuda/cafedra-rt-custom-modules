@@ -1,0 +1,4 @@
+name = Custom Blocks
+description = A description of what your module does.
+package = Custom
+core = 7.x

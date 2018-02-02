@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../includes" />
+      <path value="$PROJECT_DIR$/../../php" />
+      <path value="$PROJECT_DIR$/../../rdf" />
+      <path value="$PROJECT_DIR$/../../blog" />
+      <path value="$PROJECT_DIR$/../../book" />
+      <path value="$PROJECT_DIR$/../../file" />
+      <path value="$PROJECT_DIR$/../../help" />
+      <path value="$PROJECT_DIR$/../../menu" />
+      <path value="$PROJECT_DIR$/../../node" />
+      <path value="$PROJECT_DIR$/../../path" />
+      <path value="$PROJECT_DIR$/../../poll" />
+      <path value="$PROJECT_DIR$/../../user" />
+      <path value="$PROJECT_DIR$/../../block" />
+      <path value="$PROJECT_DIR$/../../color" />
+      <path value="$PROJECT_DIR$/../../dblog" />
+      <path value="$PROJECT_DIR$/../../field" />
+      <path value="$PROJECT_DIR$/../../forum" />
+      <path value="$PROJECT_DIR$/../../image" />
+      <path value="$PROJECT_DIR$/../cafedra_link_formatter" />
+      <path value="$PROJECT_DIR$/../../filter" />
+      <path value="$PROJECT_DIR$/../../locale" />
+      <path value="$PROJECT_DIR$/../../openid" />
+      <path value="$PROJECT_DIR$/../../search" />
+      <path value="$PROJECT_DIR$/../../syslog" />
+      <path value="$PROJECT_DIR$/../../system" />
+      <path value="$PROJECT_DIR$/../../update" />
+      <path value="$PROJECT_DIR$/../../comment" />
+      <path value="$PROJECT_DIR$/../../contact" />
+      <path value="$PROJECT_DIR$/../../overlay" />
+      <path value="$PROJECT_DIR$/../../profile" />
+      <path value="$PROJECT_DIR$/../../toolbar" />
+      <path value="$PROJECT_DIR$/../../tracker" />
+      <path value="$PROJECT_DIR$/../../trigger" />
+      <path value="$PROJECT_DIR$/../../field_ui" />
+      <path value="$PROJECT_DIR$/../../shortcut" />
+      <path value="$PROJECT_DIR$/../../taxonomy" />
+      <path value="$PROJECT_DIR$/../../dashboard" />
+      <path value="$PROJECT_DIR$/../../aggregator" />
+      <path value="$PROJECT_DIR$/../../contextual" />
+      <path value="$PROJECT_DIR$/../../simpletest" />
+      <path value="$PROJECT_DIR$/../../statistics" />
+      <path value="$PROJECT_DIR$/../../translation" />
+      <path value="$PROJECT_DIR$/../../../sites/all/modules" />
+    </include_path>
+  </component>
+</project>

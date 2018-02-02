@@ -1,0 +1,53 @@
+<?php
+/**
+ * @file
+ * A description of what your module does.
+ */
+
+/**
+ * Implementation of hook_block_info()
+ */
+function custom_blocks_block_info()
+{
+    $blocks['custom_blocks_logos_block'] = array(
+        'info' => t('Footer Logos Block'),
+    );
+    return $blocks;
+}
+
+/**
+ * Implementation of hook_theme()
+ * @return array
+ */
+function custom_blocks_theme()
+{
+    return array(
+        'custom_blocks_logos_block' => array(
+            'arguments' => array(),
+            'template' => 'templates/custom-blocks-logos-block'
+        )
+    );
+}
+
+/**
+ * Implementation of hook_block_view()
+ */
+function custom_blocks_block_view($delta = '')
+{
+    $block = array();
+    switch ($delta) {
+        case 'custom_blocks_logos_block':
+            $block['subject'] = t('');
+            $block['content'] = array(
+                '#markup' => theme('custom_blocks_logos_block'),
+//                '#attached' => array(
+//                    'css' => array(
+//                        drupal_get_path('module', 'free_account_restrictions') . '/css/free_account_restrictions.css',
+//                    ),
+//                ),
+            );
+
+            break;
+    }
+    return $block;
+}

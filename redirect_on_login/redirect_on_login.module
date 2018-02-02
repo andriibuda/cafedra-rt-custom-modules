@@ -1,0 +1,13 @@
+<?php
+/**
+* @file
+* A description of what your module does.
+*/
+
+/**
+ * Implements hook_user_login().
+ */
+function redirect_on_login_user_login(&$edit, $account) {
+    // $edit is empty with one time login
+    $edit['redirect'] = 'admin/content/node';
+}

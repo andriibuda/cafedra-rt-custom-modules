@@ -1,0 +1,4 @@
+name = Cafedra Partners Image
+description = A formatter for outputting an partner image as a link for his site if available.
+package = Custom
+core = 7.x

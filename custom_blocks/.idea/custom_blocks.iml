@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../includes" />
+          <root url="file://$MODULE_DIR$/../../aggregator" />
+          <root url="file://$MODULE_DIR$/../../block" />
+          <root url="file://$MODULE_DIR$/../../blog" />
+          <root url="file://$MODULE_DIR$/../../book" />
+          <root url="file://$MODULE_DIR$/../../color" />
+          <root url="file://$MODULE_DIR$/../../comment" />
+          <root url="file://$MODULE_DIR$/../../contact" />
+          <root url="file://$MODULE_DIR$/../../contextual" />
+          <root url="file://$MODULE_DIR$/../cafedra_link_formatter" />
+          <root url="file://$MODULE_DIR$/../../dashboard" />
+          <root url="file://$MODULE_DIR$/../../dblog" />
+          <root url="file://$MODULE_DIR$/../../field" />
+          <root url="file://$MODULE_DIR$/../../field_ui" />
+          <root url="file://$MODULE_DIR$/../../file" />
+          <root url="file://$MODULE_DIR$/../../filter" />
+          <root url="file://$MODULE_DIR$/../../forum" />
+          <root url="file://$MODULE_DIR$/../../help" />
+          <root url="file://$MODULE_DIR$/../../image" />
+          <root url="file://$MODULE_DIR$/../../locale" />
+          <root url="file://$MODULE_DIR$/../../menu" />
+          <root url="file://$MODULE_DIR$/../../node" />
+          <root url="file://$MODULE_DIR$/../../openid" />
+          <root url="file://$MODULE_DIR$/../../overlay" />
+          <root url="file://$MODULE_DIR$/../../path" />
+          <root url="file://$MODULE_DIR$/../../php" />
+          <root url="file://$MODULE_DIR$/../../poll" />
+          <root url="file://$MODULE_DIR$/../../profile" />
+          <root url="file://$MODULE_DIR$/../../rdf" />
+          <root url="file://$MODULE_DIR$/../../search" />
+          <root url="file://$MODULE_DIR$/../../shortcut" />
+          <root url="file://$MODULE_DIR$/../../simpletest" />
+          <root url="file://$MODULE_DIR$/../../statistics" />
+          <root url="file://$MODULE_DIR$/../../syslog" />
+          <root url="file://$MODULE_DIR$/../../system" />
+          <root url="file://$MODULE_DIR$/../../taxonomy" />
+          <root url="file://$MODULE_DIR$/../../toolbar" />
+          <root url="file://$MODULE_DIR$/../../tracker" />
+          <root url="file://$MODULE_DIR$/../../translation" />
+          <root url="file://$MODULE_DIR$/../../trigger" />
+          <root url="file://$MODULE_DIR$/../../update" />
+          <root url="file://$MODULE_DIR$/../../user" />
+          <root url="file://$MODULE_DIR$/../../../sites/all/modules" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../includes" />
+          <root url="file://$MODULE_DIR$/../../aggregator" />
+          <root url="file://$MODULE_DIR$/../../block" />
+          <root url="file://$MODULE_DIR$/../../blog" />
+          <root url="file://$MODULE_DIR$/../../book" />
+          <root url="file://$MODULE_DIR$/../../color" />
+          <root url="file://$MODULE_DIR$/../../comment" />
+          <root url="file://$MODULE_DIR$/../../contact" />
+          <root url="file://$MODULE_DIR$/../../contextual" />
+          <root url="file://$MODULE_DIR$/../cafedra_link_formatter" />
+          <root url="file://$MODULE_DIR$/../../dashboard" />
+          <root url="file://$MODULE_DIR$/../../dblog" />
+          <root url="file://$MODULE_DIR$/../../field" />
+          <root url="file://$MODULE_DIR$/../../field_ui" />
+          <root url="file://$MODULE_DIR$/../../file" />
+          <root url="file://$MODULE_DIR$/../../filter" />
+          <root url="file://$MODULE_DIR$/../../forum" />
+          <root url="file://$MODULE_DIR$/../../help" />
+          <root url="file://$MODULE_DIR$/../../image" />
+          <root url="file://$MODULE_DIR$/../../locale" />
+          <root url="file://$MODULE_DIR$/../../menu" />
+          <root url="file://$MODULE_DIR$/../../node" />
+          <root url="file://$MODULE_DIR$/../../openid" />
+          <root url="file://$MODULE_DIR$/../../overlay" />
+          <root url="file://$MODULE_DIR$/../../path" />
+          <root url="file://$MODULE_DIR$/../../php" />
+          <root url="file://$MODULE_DIR$/../../poll" />
+          <root url="file://$MODULE_DIR$/../../profile" />
+          <root url="file://$MODULE_DIR$/../../rdf" />
+          <root url="file://$MODULE_DIR$/../../search" />
+          <root url="file://$MODULE_DIR$/../../shortcut" />
+          <root url="file://$MODULE_DIR$/../../simpletest" />
+          <root url="file://$MODULE_DIR$/../../statistics" />
+          <root url="file://$MODULE_DIR$/../../syslog" />
+          <root url="file://$MODULE_DIR$/../../system" />
+          <root url="file://$MODULE_DIR$/../../taxonomy" />
+          <root url="file://$MODULE_DIR$/../../toolbar" />
+          <root url="file://$MODULE_DIR$/../../tracker" />
+          <root url="file://$MODULE_DIR$/../../translation" />
+          <root url="file://$MODULE_DIR$/../../trigger" />
+          <root url="file://$MODULE_DIR$/../../update" />
+          <root url="file://$MODULE_DIR$/../../user" />
+          <root url="file://$MODULE_DIR$/../../../sites/all/modules" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

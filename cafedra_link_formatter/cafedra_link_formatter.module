@@ -1,0 +1,52 @@
+<?php
+/**
+* @file
+* A description of what your module does.
+*/
+
+/**
+ * Implements hook_field_formatter_info().
+ */
+function cafedra_link_formatter_field_formatter_info()
+{
+    return array(
+        'link_formatter' => array(
+            // Machine name of formatter
+            'label' => t('Output content as a link to entity'),
+            'field types' => array('text', 'text_long', 'list_text')
+        ),
+        'external_link' => array(
+            'label' => t('External link formatter'),
+            'field types' => array('text', 'text_long', 'list_text')
+        )
+    );
+}
+
+/**
+ * Implements hook_field_formatter_view().
+ */
+function cafedra_link_formatter_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display)
+{
+    $element = array();
+
+    switch($display['type']) {
+        case 'link_formatter':
+            $path = entity_uri($entity_type, $entity);
+            foreach ($items as $delta => $item) {
+                $element[$delta] = array(
+                    '#markup' => '<a href="'.$path.'">' . $item['value'] . '</a>'
+                );
+            }
+            break;
+
+        case 'external_link':
+            foreach ($items as $delta => $item) {
+                $path = $item['value'];
+                $element[$delta] = array(
+                    '#markup' => '<a href="'.$path.'" target="_blank">' . $item['value'] . '</a>'
+                );
+            }
+            break;
+    }
+    return $element;
+}
